@@ -1,0 +1,141 @@
+/* stylesheet.css */
+/* Style rule for the body element */
+body{
+   background-color:yellow;
+   background-image:url(pix/The\ bkgleather2.png);
+   /* Default font styling */
+   font: 10pt Arial, Helvetica, Sans-Serif;
+   color:#5d3f25;
+   
+ }
+ /* Style rule for the wrapper div */
+ #wrapper{
+   width:900px;
+   margin:0 auto;
+   background: color #d0aed0;;  
+   border:solid 2px #4c2e16;
+   border-radius:20px;
+   box-shadow:8px 8px 8px black;
+   
+ }
+
+ /* Styling for page header */
+ header{
+   /* Font size, line-height, and family */
+ font: 40px/80px Impact, Gadget, Fantasy;
+ text-align: center;
+ /* Background color, image, position */
+ background-color: #d0ae8e; 
+ background-image:url(pix/headerlogo.png);
+ background-repeat: no-repeat;
+ background-position: 10px center;
+ /* Round the top corners */
+ border-top-left-radius: 18px;
+ border-top-right-radius: 18px;
+ }
+
+ /*======== Styling for the sidebar section (aside) */
+aside {
+  width: 130px;
+  padding: 10px;
+  float: right;
+ }
+ /*======== Styling for the article section */
+ article {
+  padding: 10px; 
+ /* Right margin should match neighboring column full width */
+  margin-right: 150px;
+  border-right:solid 1px #d0ae8e;
+ }
+
+ /*======== Styling for the sidebar section (aside) */
+ aside{
+  width:130px;
+  padding:10px;
+  float:left;
+ }
+ aside.right {
+   float: right;
+ }
+ /*======== Styling for links in nav section */
+ nav a{
+  display:block;
+  background-color: #d0ae8e;
+  color: #5d3f25;
+  font-weight: bold;
+  text-align: center; 
+  /* As wide as the content width */
+  width: 100%;
+  /* Small vertical margin, zero side margin */
+  margin: 2px 0;
+  /* Bigger text */
+  font-size: 22px;
+  /* Some extra height */
+  padding: 12px 0;
+  /* No underline or dotted outline */
+  text-decoration: none;
+  outline: none;
+ }
+ nav a:link, nav a:visited {
+  background-color: #d0ae8e;
+  color: #5d3f25;
+ }
+  
+ nav a:hover, nav a:active {
+  background-color: #5d3f25;
+  color: #d0ae8e;
+ }
+
+
+ /* Styling for the article section */
+ article{
+   padding: 10px;
+    /* Left margin should match neighboring column full width */
+ margin-left:150px;
+ border-left:solid 1px #d0ae8e;
+ background-color: White;
+ }
+
+ /* Styling for footer */
+footer{
+  clear:both;
+  height:35px;
+  padding:5px;
+  background-color: #d0ae8e; 
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+ }
+
+ /* Style for h1 headings */
+ h1{
+   font:italic small-caps bold 24px Arial Black, Gadget, Sans-Serif;
+   text-shadow:-2px -2px 2px #a48362;
+   text-align:center;
+ }
+ /* Style for h2 headings */
+ h2{
+   font:italic small-caps bold 18px Arial Black, Gadget, Sans-Serif;
+   text-shadow:-1px -1px 1px #a48362;
+ }
+ /* Style for paragraphs */
+ p{
+   line-height:1.5;
+ }
+/* Image floating to the left of neighboring text */
+img.left {
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+}
+/* Image floating to the right of neighboring text */
+img.right {
+  float: right;
+  width: 30%;
+  margin-left: 10px;
+}
+/* Styling for table in footer */
+footer table {
+  width: 98%;
+  margin: 5px auto;
+  color:#4c2e16; 
+ }
